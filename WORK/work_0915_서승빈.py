@@ -97,6 +97,7 @@ def find_max(nums):
   return max_num
 
 nums_str = input("정수 입력(예: 1 2 3 4): ").split()
+print(nums_str)
 nums = [int(n) for n in nums_str]
 
 print(f"find_max(nums) => {find_max(nums)}")
